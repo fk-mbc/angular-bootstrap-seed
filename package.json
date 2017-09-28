@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build",
+    "build": "ng build --prod --base-href /angular-bootstrap-seed",
+    "deploy": "ng build --prod --output-path docs --base-href /angular-bootstrap-seed",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

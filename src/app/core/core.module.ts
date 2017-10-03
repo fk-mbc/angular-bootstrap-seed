@@ -6,16 +6,22 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { SpinnerService } from './spinner/spinner.service';
 
 import { throwIfAlreadyLoaded } from './module-import-guard';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
     SharedModule
   ],
   exports: [
-    SpinnerComponent
+    SpinnerComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   declarations: [
-    SpinnerComponent
+    SpinnerComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   providers: [
     LoggerService,

@@ -5,7 +5,7 @@ import { LoggerService } from '../logger.service';
 import { SpinnerState, SpinnerService } from './spinner.service';
 
 @Component({
-  selector: 'toh-spinner',
+  selector: 'app-spinner',
   templateUrl: './spinner.component.html',
   styleUrls: ['./spinner.component.scss']
 })

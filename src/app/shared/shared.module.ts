@@ -6,7 +6,7 @@ const sharedModules = [
   CommonModule,
   FormsModule,
   ReactiveFormsModule
-]
+];
 
 @NgModule({
   imports: [
